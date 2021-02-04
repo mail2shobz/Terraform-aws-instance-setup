@@ -96,7 +96,7 @@ resource "aws_instance" "testinstance" {
   ami           = "ami-0a4a70bd98c6d6441"  
   instance_type = "t3.micro"
   availability_zone = "ap-south-1a"
-  key_name = "terrafrom"
+  key_name = "keyname which you have created in the AWS"
   
   network_interface {
        device_index         = 0
