@@ -1,9 +1,8 @@
 Using this main.tf file you can setup an AWS account Along with VPC and subnet via Terraform !!!!
 In this Tutorial i have  added how  we can setup an apache  webserver via terraform.
 
-Run the below command to run the file via Terraform:
 
-Step 1 : Install Terraform 
+Step 1 : Install Terraform  (IF NOT INSTALLED TERRAFORM)
 
           curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
