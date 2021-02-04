@@ -11,6 +11,7 @@ Step 1 : Install Terraform  (If it is not Installed)
           sudo apt install terraform
 
 Step 2 : After Installling terraform run the below command to deploy the main.tf file for starting  the infra setup 
+        Run the commands from the main.tf file location
          
          Note : Before  deploying make sure you have added the ROOT Access Key and Secret key inside the main.tf file 
          Also make sure created the pemkey for the instance via AWS console and should be added  in the keypair section inside main.tf file
