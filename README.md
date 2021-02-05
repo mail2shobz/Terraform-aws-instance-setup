@@ -12,6 +12,7 @@ Step 1 : Install Terraform  (If it is not Installed)
 
 Step 2 : After Installling terraform run the below command to deploy the main.tf file for starting  the infra setup 
         Run the commands from the main.tf file location
+        
          
          
            terraform init
@@ -19,3 +20,5 @@ Step 2 : After Installling terraform run the below command to deploy the main.tf
            terraform plan
            
            terraform apply
+           
+       After running the "terraform apply" command it will ask to enter the Secret key,Access Key & Pemkey which you have created.   
