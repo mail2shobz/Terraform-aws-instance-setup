@@ -1,16 +1,16 @@
 #Configure Keys 
 variable "accesskey" {
-  description = "Enter acces key"
+  description = "Enter acces key you have created"
 
 }
 
 variable "secretkey" {
-    description = "Enter secret key"
+    description = "Enter secret key you have created"
 
 }
 
 variable "pemkey" {
-   description = "Enter pemkey key"
+   description = "Enter pemkey key you have created"
 
 }
 
