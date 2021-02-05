@@ -10,7 +10,7 @@ variable "secretkey" {
 }
 
 variable "pemkey" {
-   description = "Enter secret key"
+   description = "Enter pemkey key"
 
 }
 
