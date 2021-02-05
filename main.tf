@@ -1,8 +1,24 @@
+#Configure Keys 
+variable "accesskey" {
+  description = "Enter acces key"
+
+}
+
+variable "secretkey" {
+    description = "Enter secret key"
+
+}
+
+variable "pemkey" {
+   description = "Enter secret key"
+
+}
+
 # Configure the AWS Provider
 provider "aws" {
   region = "ap-south-1"
-  access_key = "Paste your Access Key of ROOT Account"
-  secret_key = "Paste your Secret Key of ROOT Account "
+  access_key =  var.accesskey
+  secret_key =  var.secretkey
 }
 #create vpc
 resource "aws_vpc" "testvpc" {
@@ -96,7 +112,7 @@ resource "aws_instance" "testinstance" {
   ami           = "ami-0a4a70bd98c6d6441"  
   instance_type = "t3.micro"
   availability_zone = "ap-south-1a"
-  key_name = "keyname which you have created in the AWS"
+  key_name = var.pemkey
   
   network_interface {
        device_index         = 0
